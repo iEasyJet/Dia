@@ -1,0 +1,205 @@
+.steps {
+  max-width: 1470px;
+  margin: 0 auto;
+  background-color: rgba(196,196,196, 0.05);
+  min-height: 816px;
+}
+
+.steps__box {
+  max-width: 1146px;
+  margin: 0 auto;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+}
+
+.steps__title {
+  margin: 0;
+  padding: 160px 0 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #56CCF2;
+}
+
+.steps__title::before {
+  content: '\2003\2003';
+  background: url(../../images/intro/Vector.svg)  no-repeat;
+  background-size: 18px;
+}
+
+.steps__slogan {
+  max-width: 362px;
+  margin: 19px 0 64px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 140%;
+  color: #253757;
+}
+
+.steps__text {
+  max-width: 362px;
+  margin: 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #334563;
+  mix-blend-mode: normal;
+}
+
+.steps__br {
+  display: block;
+  min-height: 25px;
+}
+
+.steps__card-item {
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  max-width: 240px;
+  min-height: 390px;
+  padding-top: 67px;
+  z-index: 2;
+}
+
+.steps__card-item:nth-of-type(1) {
+  position: absolute;
+  top: 268px;
+  left: 551px;
+  background: url(../../images/steps/blue.png) center no-repeat;
+
+}
+
+.steps__card-item:nth-of-type(2) {
+  position: absolute;
+  top: 156px;
+  left: 849px;
+  background: url(../../images/steps/yellow.png) center no-repeat;
+}
+
+.steps__card-item:nth-of-type(3) {
+  position: absolute;
+  top: 651.5px;
+  left: 551px;
+  background: url(../../images/steps/green.png) center no-repeat;
+}
+
+.steps__card-item:nth-of-type(4) {
+  position: absolute;
+  top: 541px;
+  left: 849px;
+  background: url(../../images/steps/red.png) center no-repeat;
+}
+
+.steps__card-item-box {
+  width: 240px;
+  min-height: 256px;
+  box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02);
+  background: white;
+}
+
+.steps__card-title {
+  margin: 0;
+  padding: 64px 0 4px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.steps__card-item:nth-of-type(1) .steps__card-title {
+  color: #56CCF2;
+  background: url(../../images/steps/EllipseBlue.png) 50% 50px no-repeat;
+}
+
+.steps__card-item:nth-of-type(2) .steps__card-title {
+  color: #FCC304;
+  background: url(../../images/steps/EllipseYellow.png) 50% 50px no-repeat;
+}
+
+.steps__card-item:nth-of-type(3) .steps__card-title {
+  color: #03D542;
+  background: url(../../images/steps/EllipseGreen.png) 50% 50px no-repeat;
+}
+
+.steps__card-item:nth-of-type(4) .steps__card-title {
+  color: #F25656;
+  background: url(../../images/steps/EllipseRed.png) 50% 50px no-repeat;
+}
+
+.steps__card-text {
+  max-width: 176px;
+  margin: 0 auto;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6px;
+  line-height: 152%;
+  text-align: center;
+  color: #253757;
+  mix-blend-mode: normal;
+}
+
+@media (max-width: 1220px) {
+  .steps__title {
+    padding-top: 0;
+    text-align: center;
+  }
+  .steps__slogan {
+    margin: 19px auto 64px;
+    text-align: center;
+  }
+  .steps__text {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .steps__card {
+    padding: 0 30px 0;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-content: center;
+
+  }
+  .steps__card-item:nth-of-type(1) {
+    position: static;
+  }
+
+  .steps__card-item:nth-of-type(2) {
+    position: static;
+  }
+
+  .steps__card-item:nth-of-type(3) {
+    position: static;
+  }
+
+  .steps__card-item:nth-of-type(4) {
+    position: static;
+  }
+}
+
+@media (max-width: 1000px) {
+  .steps__title {
+    color: white;
+    text-align: center;
+  }
+  .steps__title::before {
+    content: '\2003\2003';
+    background: url(../../images/features/Vector.svg)  no-repeat;
+    background-size: 18px;
+  }
+}

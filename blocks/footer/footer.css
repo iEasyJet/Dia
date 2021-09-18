@@ -1,0 +1,370 @@
+.footer {
+  padding-top: 96px;
+  box-sizing: border-box;
+}
+
+.footer__box {
+  max-width: 1146px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__form {
+  width: 656px;
+  min-height: 508px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer__title {
+  margin: 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #56CCF2;
+}
+
+.footer__title::before {
+  content: '\2003\2003';
+  background: url(../../images/intro/Vector.svg)  no-repeat;
+  background-size: 21px;
+}
+
+.footer__block-form {
+  margin: 95px 0 0;
+  width: 656px;
+  min-height: 219px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+
+.footer__form-email {
+  padding: 0 10px 0;
+  display: block;
+  height: 41px;
+  width: 656px;
+  border: 0;
+  border-bottom: 1px solid #E1E1E1;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14.4px;
+  line-height: 150%;
+  color: #152032;
+}
+
+.footer__form-name {
+  padding: 0 10px 0;
+  display: block;
+  border: 0;
+  border-bottom: 1px solid #E1E1E1;
+  height: 41px;
+  width: 656px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14.4px;
+  line-height: 150%;
+  color: #152032;
+}
+
+.footer__form-comm {
+  padding: 20px 10px 0;
+  display: block;
+  height: 41px;
+  width: 656px;
+  border: 0;
+  border-bottom: 1px solid #E1E1E1;
+  resize: none;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14.4px;
+  line-height: 150%;
+  color: #152032;
+}
+
+.footer__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 0 0;
+  width: 226px;
+  height: 56px;
+
+  text-decoration: none;
+  background: #2F80ED;
+  border-radius: 64px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  transition: all 0.3s ease-in-out;
+  border: 0;
+}
+
+.footer__btn:hover {
+  color: #2F80ED;
+  background: #FFFFFF;
+  border: 1px solid #2F80ED;
+}
+
+.footer__contact {
+  max-width: 362px;
+}
+
+.footer__slogan {
+  margin: 19px 0 0;
+  max-width: 362px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 145%;
+  color: #253757;
+}
+
+.footer__subtitle {
+  margin: 42px 0 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #334563;
+}
+
+.footer__text {
+  margin: 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #56CCF2;
+}
+
+.footer__social {
+  margin: 51px 0 0;
+  width: 192px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__twitter {
+  display: flex;
+  background: url(../../images/footer/twitter-square.svg);
+  width: 32px;
+  height: 36.5px;
+}
+
+.footer__inst {
+  display: flex;
+  background: url(../../images/footer/instagram.svg);
+  width: 32px;
+  height: 36.5px;
+}
+
+.footer__facebook {
+  display: flex;
+  background: url(../../images/footer/facebook-square.svg);
+  width: 32px;
+  height: 36.5px;
+}
+
+.footer__link {
+  transition: all 0.3s ease-in-out;
+}
+
+.footer__link:hover {
+  transform: rotate(-30deg);
+}
+
+.footer__menu {
+  max-width: 1146px;
+  margin: 138px auto 83px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #253757;
+}
+
+.footer__list {
+  width: 558px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__item {
+  margin: 0;
+  text-decoration: none;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #253757;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer__item:hover {
+  color: rgb(71, 71, 71);
+  opacity: 0.5;
+}
+
+@media (max-width: 1220px) {
+  .footer__box {
+    flex-direction: column;
+  }
+
+  .footer__title {
+    text-align: center;
+  }
+
+  .footer__btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__slogan {
+    text-align: center;
+  }
+
+  .footer__form {
+    justify-content: center;
+    align-self: center;
+  }
+
+  .footer__subtitle {
+    text-align: center;
+  }
+
+  .footer__text {
+    text-align: center;
+  }
+
+  .footer__social {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__contact {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+  }
+
+  .footer__menu {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer__form .footer__title {
+    color: white;
+  }
+
+  .footer__form .footer__title::before {
+    content: '\2003\2003';
+    background: url(../../images/features/Vector.svg)  no-repeat;
+    background-size: 18px;
+  }
+  .footer__form-email {
+    padding: 0 15px 0;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__form-name {
+    padding: 0 15px 0;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__form-comm {
+    padding: 0 15px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+  .footer__menu {
+    margin-top: 50px;
+    flex-direction: column-reverse;
+    row-gap: 30px;
+  }
+}
+
+@media (max-width: 670px) {
+  .footer__list {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 30px;
+  }
+
+  .footer__form {
+    width: 450px;
+  }
+
+  .footer__block-form {
+    width: 450px;
+  }
+
+  .footer__list {
+    width: 450px;
+  }
+}
+
+@media (max-width: 460px) {
+  .footer__form {
+    width: 280px;
+  }
+
+  .footer__block-form {
+    width: 280px;
+  }
+
+  .footer__form-name {
+    width: 250px;
+  }
+
+  .footer__form-email {
+    width: 250px;
+  }
+
+  .footer__form-comm {
+    width: 250px;
+  }
+
+  .footer__list {
+    width: 280px;
+  }
+}

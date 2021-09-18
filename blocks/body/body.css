@@ -1,0 +1,18 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.body {
+  max-width: 1600px;
+  min-width: 320px;
+  margin: 0 auto;
+  background: url(../../images/body/Bg.png) no-repeat, #FCFCFD;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 1000px) {
+  .body {
+    background-size: cover;
+  }
+}

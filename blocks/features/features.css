@@ -1,0 +1,130 @@
+.features {
+  position: relative;
+  max-width: 1600px;
+  min-height: 976px;
+
+  background: url(../../images/features/Rectangle.png) top right no-repeat, #56CCF2;
+}
+
+.features__img {
+  position: absolute;
+  right: 0;
+  top: -65px;
+}
+
+.features__box {
+  max-width: 1146px;
+  margin: 0 auto;
+  padding: 198px 0 0;
+}
+
+.features__title {
+  margin: 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.features__title::before {
+  content: '\2003\2003';
+  background: url(../../images/features/Vector.svg)  no-repeat;
+  background-size: 18px;
+}
+
+.features__slogan {
+  margin: 19px 0 70px;
+  max-width: 362px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 140%;
+  color: #253757;
+}
+
+.features__flex-box {
+  width: 359px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+}
+
+.features__text {
+  margin: 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+
+  display: flex;
+  column-gap: 32px;
+}
+
+.features__img-2 {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+@media (max-width: 1220px) {
+  .features__flex-box {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .features__title {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .features__slogan {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .features__title {
+    text-align: center;
+  }
+  .features__slogan {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .features__flex-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1220px) {
+  .features__img {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .features__text {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 20px;
+  }
+  .features__flex-box {
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 400px) {
+  .features__flex-box {
+    width: 320px;
+    box-sizing: border-box;
+  }
+}

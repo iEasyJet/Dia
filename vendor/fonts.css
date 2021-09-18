@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Mulish';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(../fonts/AnyConv.com__Mulish-Regular.woff2) format("woff2"),
+       url(../fonts/AnyConv.com__Mulish-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style:  normal;
+  font-weight: 700;
+  src: url(../fonts/AnyConv.com__Mulish-Bold.woff2) format("woff2"),
+       url(../fonts/AnyConv.com__Mulish-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style:  normal;
+  font-weight: 900;
+  src: url(../fonts/AnyConv.com__Mulish-Black.woff2) format("woff2"),
+       url(../fonts/AnyConv.com__Mulish-Black.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style:  normal;
+  font-weight: 800;
+  src: url(../fonts/AnyConv.com__Mulish-ExtraBold.woff2) format("woff2"),
+       url(../fonts/AnyConv.com__Mulish-ExtraBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style:  normal;
+  font-weight: 600;
+  src: url(../fonts/AnyConv.com__Mulish-SemiBold.woff2) format("woff2"),
+       url(../fonts/AnyConv.com__Mulish-SemiBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style:  italic;
+  font-weight: 400;
+  src: url(../fonts/AnyConv.com__Mulish-Italic.woff2) format("woff2"),
+       url(../fonts/AnyConv.com__Mulish-Italic.woff) format("woff");
+}
