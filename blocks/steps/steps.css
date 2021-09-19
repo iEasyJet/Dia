@@ -165,6 +165,11 @@
     margin: 0 auto;
     text-align: center;
   }
+  .steps__box {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
   .steps__card {
     padding: 0 30px 0;
     margin-top: 50px;

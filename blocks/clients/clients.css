@@ -158,6 +158,9 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -171,9 +174,13 @@
     background: url(../../images/features/Vector.svg)  no-repeat;
     background-size: 18px;
   }
+
   .clients__list {
     flex-wrap: wrap;
     justify-content: space-around;
     row-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
   }
 }
