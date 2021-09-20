@@ -105,6 +105,16 @@
   width: 50%;
   height: 100%;
   transition: transform 0.05s ease-in-out;
+  position: relative;
+}
+
+.gallery__switch-left::before {
+  content: '';
+  position: absolute;
+  top: -7.5px;
+  width: 110%;
+  height: 130%;
+  right: 2px;
 }
 
 .gallery__switch-left:hover {
@@ -126,6 +136,15 @@
   width: 50%;
   height: 100%;
   transition: transform 0.05s ease-in-out;
+  position: relative;
+}
+
+.gallery__switch-right::before {
+  content: '';
+  position: absolute;
+  top: -7.5px;
+  width: 110%;
+  height: 130%;
 }
 
 .gallery__switch-right:hover {
@@ -271,6 +290,24 @@
     width: 81.25px;
     height: 64px;
     transition: transform 0.05s ease-in-out;
+  }
+
+  .gallery__switch-left-2::before {
+    content: '';
+    position: absolute;
+    top: -9px;
+    left: -2.5px;
+    width: 110%;
+    height: 130%;
+  }
+
+  .gallery__switch-right-2::before {
+    content: '';
+    position: absolute;
+    top: -9px;
+    right: -2.5px;
+    width: 110%;
+    height: 130%;
   }
 
   .gallery__switch-right-2 {
