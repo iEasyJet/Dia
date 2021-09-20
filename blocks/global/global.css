@@ -172,6 +172,14 @@
   transition: all 0.3s ease-in-out;
 }
 
+.global__link-social::before {
+  content: '';
+  display: block;
+  width: 150px;
+  height: 120px;
+  position: absolute;
+}
+
 .global__link-social:hover {
   color: rgb(71, 71, 71);
   opacity: 0.5;
